@@ -5,10 +5,10 @@
 */
 public class Card
 {
-	public static final int CLUBS 0;
-	public static final int SPADES 1;
-	public static final int HEARTS 2;
-	public static final int DIAMONDS 3;
+	public static final int CLUBS = 0;
+	public static final int SPADES = 1;
+	public static final int HEARTS = 2;
+	public static final int DIAMONDS = 3;
    //DECLARE OTHER INSTANCE DATE HERE
    
    /**
@@ -22,8 +22,9 @@ public class Card
    }
 
    /** getFace method:
-	 * accessor method that returns the face value of the Card
-	 * @return an int, the face value of the Card
+    * accessor method that returns the face value of the Card
+    * @return an int, the face value of the Card
+    */
    public int getFace()
    {
       return 0; //EDIT THIS
